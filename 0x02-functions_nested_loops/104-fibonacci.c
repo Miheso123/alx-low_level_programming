@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - fibonacci < 3
+ * main - fibonacci <3
  *
  * Purpose - no hardcode
  *
@@ -21,7 +21,7 @@ int main(void)
 
 	for (i = 1; i < 91; i++)
 	{
-		printf("', %lu", aft);
+		printf(", %lu", aft);
 		aft += bef;
 		bef = aft - bef;
 	}
