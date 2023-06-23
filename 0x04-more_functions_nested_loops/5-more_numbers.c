@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_numbers - prints more numbers
+ * more_numbers - print more numbers
  */
 void more_numbers(void)
 {
@@ -14,6 +14,6 @@ void more_numbers(void)
 				_putchar('1');
 			_putchar(j % 10 + '0');
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
